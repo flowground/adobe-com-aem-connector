@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "bundles_ignored": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "bundles_ignored_TypeHint": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

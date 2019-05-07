@@ -1,0 +1,85 @@
+{
+    "type": "object",
+    "properties": {
+        "org_apache_felix_https_nio": {
+            "required": false,
+            "type": "boolean"
+        },
+        "org_apache_felix_https_nio_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_keystore": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_keystore_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_keystore_password": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_keystore_password_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_keystore_key": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_keystore_key_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_keystore_key_password": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_keystore_key_password_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_truststore": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_truststore_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_truststore_password": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_truststore_password_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_clientcertificate": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_clientcertificate_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "org_apache_felix_https_enable": {
+            "required": false,
+            "type": "boolean"
+        },
+        "org_apache_felix_https_enable_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "org_osgi_service_http_port_secure": {
+            "required": false,
+            "type": "string"
+        },
+        "org_osgi_service_http_port_secure_TypeHint": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

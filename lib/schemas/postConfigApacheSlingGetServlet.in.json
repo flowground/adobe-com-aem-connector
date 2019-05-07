@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "json_maximumresults": {
+            "required": false,
+            "type": "string"
+        },
+        "json_maximumresults_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "enable_html": {
+            "required": false,
+            "type": "boolean"
+        },
+        "enable_html_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "enable_txt": {
+            "required": false,
+            "type": "boolean"
+        },
+        "enable_txt_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "enable_xml": {
+            "required": false,
+            "type": "boolean"
+        },
+        "enable_xml_TypeHint": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

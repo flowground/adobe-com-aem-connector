@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "groupName": {
+            "required": true,
+            "type": "string"
+        },
+        "packageName": {
+            "required": true,
+            "type": "string"
+        },
+        "version": {
+            "required": true,
+            "type": "string"
+        },
+        "path": {
+            "required": true,
+            "type": "string"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        },
+        "_charset_": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

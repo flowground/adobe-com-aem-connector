@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "path": {
+            "required": true,
+            "type": "string"
+        },
+        "cmd": {
+            "required": true,
+            "type": "string"
+        },
+        "groupName": {
+            "required": false,
+            "type": "string"
+        },
+        "packageName": {
+            "required": false,
+            "type": "string"
+        },
+        "packageVersion": {
+            "required": false,
+            "type": "string"
+        },
+        "_charset_": {
+            "required": false,
+            "type": "string"
+        },
+        "force": {
+            "required": false,
+            "type": "boolean"
+        },
+        "recursive": {
+            "required": false,
+            "type": "boolean"
+        },
+        "requestBody": {
+            "type": "string",
+            "format": "binary"
+        }
+    }
+}

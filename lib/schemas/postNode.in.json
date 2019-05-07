@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "path": {
+            "required": true,
+            "type": "string"
+        },
+        "name": {
+            "required": true,
+            "type": "string"
+        },
+        "deleteAuthorizable": {
+            "required": false,
+            "type": "string"
+        },
+        "requestBody": {
+            "type": "string",
+            "format": "binary"
+        },
+        "_operation": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

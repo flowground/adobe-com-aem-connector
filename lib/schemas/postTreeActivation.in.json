@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "ignoredeactivated": {
+            "required": true,
+            "type": "boolean"
+        },
+        "onlymodified": {
+            "required": true,
+            "type": "boolean"
+        },
+        "path": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "path": {
+            "required": true,
+            "type": "string"
+        },
+        "name": {
+            "required": true,
+            "type": "string"
+        },
+        "addMembers": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

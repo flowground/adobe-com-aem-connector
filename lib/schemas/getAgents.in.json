@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "runmode": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

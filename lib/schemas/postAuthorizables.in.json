@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "authorizableId": {
+            "required": true,
+            "type": "string"
+        },
+        "intermediatePath": {
+            "required": true,
+            "type": "string"
+        },
+        "createUser": {
+            "required": false,
+            "type": "string"
+        },
+        "createGroup": {
+            "required": false,
+            "type": "string"
+        },
+        "rep_password": {
+            "required": false,
+            "type": "string"
+        },
+        "profile_givenName": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

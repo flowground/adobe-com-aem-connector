@@ -1,0 +1,216 @@
+{
+    "type": "object",
+    "properties": {
+        "runmode": {
+            "required": true,
+            "type": "string"
+        },
+        "name": {
+            "required": true,
+            "type": "string"
+        },
+        "jcr_content_cq_distribute": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_cq_distribute_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_cq_name": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_cq_template": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_enabled": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_jcr_description": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_jcr_lastModified": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_jcr_lastModifiedBy": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_jcr_mixinTypes": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_jcr_title": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_logLevel": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_noStatusUpdate": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_noVersioning": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_protocolConnectTimeout": {
+            "required": false,
+            "type": "number"
+        },
+        "jcr_content_protocolHTTPConnectionClosed": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_protocolHTTPExpired": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_protocolHTTPHeaders": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "jcr_content_protocolHTTPHeaders_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_protocolHTTPMethod": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_protocolHTTPSRelaxed": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_protocolInterface": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_protocolSocketTimeout": {
+            "required": false,
+            "type": "number"
+        },
+        "jcr_content_protocolVersion": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_proxyNTLMDomain": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_proxyNTLMHost": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_proxyHost": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_proxyPassword": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_proxyPort": {
+            "required": false,
+            "type": "number"
+        },
+        "jcr_content_proxyUser": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_queueBatchMaxSize": {
+            "required": false,
+            "type": "number"
+        },
+        "jcr_content_queueBatchMode": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_queueBatchWaitTime": {
+            "required": false,
+            "type": "number"
+        },
+        "jcr_content_retryDelay": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_reverseReplication": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_serializationType": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_sling_resourceType": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_ssl": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_transportNTLMDomain": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_transportNTLMHost": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_transportPassword": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_transportUri": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_transportUser": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_content_triggerDistribute": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_triggerModified": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_triggerOnOffTime": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_triggerReceive": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_triggerSpecific": {
+            "required": false,
+            "type": "boolean"
+        },
+        "jcr_content_userId": {
+            "required": false,
+            "type": "string"
+        },
+        "jcr_primaryType": {
+            "required": false,
+            "type": "string"
+        },
+        "_operation": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

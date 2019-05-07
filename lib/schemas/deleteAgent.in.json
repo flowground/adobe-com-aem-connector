@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "runmode": {
+            "required": true,
+            "type": "string"
+        },
+        "name": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

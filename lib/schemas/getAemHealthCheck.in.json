@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "tags": {
+            "required": false,
+            "type": "string"
+        },
+        "combineTagsOr": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

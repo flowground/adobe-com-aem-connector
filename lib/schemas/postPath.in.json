@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "path": {
+            "required": true,
+            "type": "string"
+        },
+        "jcr_primaryType": {
+            "required": true,
+            "type": "string"
+        },
+        "_name": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

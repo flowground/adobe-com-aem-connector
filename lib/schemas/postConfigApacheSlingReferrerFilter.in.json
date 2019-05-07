@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "allow_empty": {
+            "required": false,
+            "type": "boolean"
+        },
+        "allow_empty_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "allow_hosts": {
+            "required": false,
+            "type": "string"
+        },
+        "allow_hosts_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "allow_hosts_regexp": {
+            "required": false,
+            "type": "string"
+        },
+        "allow_hosts_regexp_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "filter_methods": {
+            "required": false,
+            "type": "string"
+        },
+        "filter_methods_TypeHint": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

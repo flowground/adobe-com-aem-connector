@@ -1,0 +1,56 @@
+{
+    "type": "object",
+    "properties": {
+        "proxy_host": {
+            "required": false,
+            "type": "string"
+        },
+        "proxy_host_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "proxy_port": {
+            "required": false,
+            "type": "integer"
+        },
+        "proxy_port_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "proxy_exceptions": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "proxy_exceptions_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "proxy_enabled": {
+            "required": false,
+            "type": "boolean"
+        },
+        "proxy_enabled_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "proxy_user": {
+            "required": false,
+            "type": "string"
+        },
+        "proxy_user_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "proxy_password": {
+            "required": false,
+            "type": "string"
+        },
+        "proxy_password_TypeHint": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

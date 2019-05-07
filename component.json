@@ -1,0 +1,747 @@
+{
+    "title": "Adobe Experience Manager (AEM)",
+    "description": "Swagger AEM is an OpenAPI specification for Adobe Experience Manager (AEM) API",
+    "docsUrl": "",
+    "url": "https://api.apis.guru/v2/specs/adobe.com/aem/2.5.0-pre/swagger.json",
+    "envVars": {},
+    "credentials": {
+        "fields": {
+            "server": {
+                "label": "Server",
+                "viewClass": "SelectView",
+                "model": [
+                    "http://adobe.local/",
+                    "https://adobe.local/",
+                    "--- Custom URL"
+                ],
+                "required": true
+            },
+            "otherServer": {
+                "label": "Custom Server URL",
+                "viewClass": "TextFieldView"
+            },
+            "username": {
+                "label": "Username (aemAuth)",
+                "viewClass": "TextFieldView"
+            },
+            "password": {
+                "label": "Password (aemAuth)",
+                "viewClass": "TextFieldView"
+            }
+        }
+    },
+    "triggers": {
+        "startFlow": {
+            "main": "./lib/triggers/startFlow.js",
+            "type": "polling",
+            "title": "Start Flow",
+            "fields": {}
+        }
+    },
+    "actions": {
+        "postCqActions": {
+            "main": "./lib/actions/postCqActions.js",
+            "title": "postCqActions",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postCqActions.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postConfigAdobeGraniteSamlAuthenticationHandler": {
+            "main": "./lib/actions/postConfigAdobeGraniteSamlAuthenticationHandler.js",
+            "title": "postConfigAdobeGraniteSamlAuthenticationHandler",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postConfigAdobeGraniteSamlAuthenticationHandler.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postConfigAemPasswordReset": {
+            "main": "./lib/actions/postConfigAemPasswordReset.js",
+            "title": "postConfigAemPasswordReset",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postConfigAemPasswordReset.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postConfigAemHealthCheckServlet": {
+            "main": "./lib/actions/postConfigAemHealthCheckServlet.js",
+            "title": "postConfigAemHealthCheckServlet",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postConfigAemHealthCheckServlet.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postConfigApacheFelixJettyBasedHttpService": {
+            "main": "./lib/actions/postConfigApacheFelixJettyBasedHttpService.js",
+            "title": "postConfigApacheFelixJettyBasedHttpService",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postConfigApacheFelixJettyBasedHttpService.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postConfigApacheHttpComponentsProxyConfiguration": {
+            "main": "./lib/actions/postConfigApacheHttpComponentsProxyConfiguration.js",
+            "title": "postConfigApacheHttpComponentsProxyConfiguration",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postConfigApacheHttpComponentsProxyConfiguration.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postConfigApacheSlingDavExServlet": {
+            "main": "./lib/actions/postConfigApacheSlingDavExServlet.js",
+            "title": "postConfigApacheSlingDavExServlet",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postConfigApacheSlingDavExServlet.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postConfigApacheSlingReferrerFilter": {
+            "main": "./lib/actions/postConfigApacheSlingReferrerFilter.js",
+            "title": "postConfigApacheSlingReferrerFilter",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postConfigApacheSlingReferrerFilter.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postConfigApacheSlingGetServlet": {
+            "main": "./lib/actions/postConfigApacheSlingGetServlet.js",
+            "title": "postConfigApacheSlingGetServlet",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postConfigApacheSlingGetServlet.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getQuery": {
+            "main": "./lib/actions/getQuery.js",
+            "title": "getQuery",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getQuery.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postQuery": {
+            "main": "./lib/actions/postQuery.js",
+            "title": "postQuery",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postQuery.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postSetPassword": {
+            "main": "./lib/actions/postSetPassword.js",
+            "title": "postSetPassword",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postSetPassword.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getInstallStatus": {
+            "main": "./lib/actions/getInstallStatus.js",
+            "title": "getInstallStatus",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getInstallStatus.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postPackageService": {
+            "main": "./lib/actions/postPackageService.js",
+            "title": "postPackageService",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postPackageService.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postPackageServiceJson": {
+            "main": "./lib/actions/postPackageServiceJson.js",
+            "title": "postPackageServiceJson",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postPackageServiceJson.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getPackageManagerServlet": {
+            "main": "./lib/actions/getPackageManagerServlet.js",
+            "title": "getPackageManagerServlet",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getPackageManagerServlet.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postPackageUpdate": {
+            "main": "./lib/actions/postPackageUpdate.js",
+            "title": "postPackageUpdate",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postPackageUpdate.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getCrxdeStatus": {
+            "main": "./lib/actions/getCrxdeStatus.js",
+            "title": "getCrxdeStatus",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getCrxdeStatus.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getPackage": {
+            "main": "./lib/actions/getPackage.js",
+            "title": "getPackage",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getPackage.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getPackageFilter": {
+            "main": "./lib/actions/getPackageFilter.js",
+            "title": "getPackageFilter",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getPackageFilter.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getAgents": {
+            "main": "./lib/actions/getAgents.js",
+            "title": "getAgents",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getAgents.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "deleteAgent": {
+            "main": "./lib/actions/deleteAgent.js",
+            "title": "deleteAgent",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/deleteAgent.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getAgent": {
+            "main": "./lib/actions/getAgent.js",
+            "title": "getAgent",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getAgent.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postAgent": {
+            "main": "./lib/actions/postAgent.js",
+            "title": "postAgent",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postAgent.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postTreeActivation": {
+            "main": "./lib/actions/postTreeActivation.js",
+            "title": "postTreeActivation",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postTreeActivation.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postTruststorePKCS12": {
+            "main": "./lib/actions/postTruststorePKCS12.js",
+            "title": "postTruststorePKCS12",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postTruststorePKCS12.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getTruststore": {
+            "main": "./lib/actions/getTruststore.js",
+            "title": "getTruststore",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getTruststore.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getLoginPage": {
+            "main": "./lib/actions/getLoginPage.js",
+            "title": "getLoginPage",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getLoginPage.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postAuthorizables": {
+            "main": "./lib/actions/postAuthorizables.js",
+            "title": "postAuthorizables",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postAuthorizables.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postTruststore": {
+            "main": "./lib/actions/postTruststore.js",
+            "title": "postTruststore",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postTruststore.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getTruststoreInfo": {
+            "main": "./lib/actions/getTruststoreInfo.js",
+            "title": "getTruststoreInfo",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getTruststoreInfo.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postBundle": {
+            "main": "./lib/actions/postBundle.js",
+            "title": "postBundle",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postBundle.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postSamlConfiguration": {
+            "main": "./lib/actions/postSamlConfiguration.js",
+            "title": "postSamlConfiguration",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postSamlConfiguration.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postJmxRepository": {
+            "main": "./lib/actions/postJmxRepository.js",
+            "title": "postJmxRepository",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postJmxRepository.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getAemProductInfo": {
+            "main": "./lib/actions/getAemProductInfo.js",
+            "title": "getAemProductInfo",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getAemProductInfo.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getAemHealthCheck": {
+            "main": "./lib/actions/getAemHealthCheck.js",
+            "title": "getAemHealthCheck",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getAemHealthCheck.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postAuthorizableKeystore": {
+            "main": "./lib/actions/postAuthorizableKeystore.js",
+            "title": "postAuthorizableKeystore",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postAuthorizableKeystore.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getAuthorizableKeystore": {
+            "main": "./lib/actions/getAuthorizableKeystore.js",
+            "title": "getAuthorizableKeystore",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getAuthorizableKeystore.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getKeystore": {
+            "main": "./lib/actions/getKeystore.js",
+            "title": "getKeystore",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getKeystore.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postPath": {
+            "main": "./lib/actions/postPath.js",
+            "title": "postPath",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postPath.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "deleteNode": {
+            "main": "./lib/actions/deleteNode.js",
+            "title": "deleteNode",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/deleteNode.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "getNode": {
+            "main": "./lib/actions/getNode.js",
+            "title": "getNode",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/getNode.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postNode": {
+            "main": "./lib/actions/postNode.js",
+            "title": "postNode",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postNode.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "postNodeRw": {
+            "main": "./lib/actions/postNodeRw.js",
+            "title": "postNodeRw",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/postNodeRw.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "alias": {
+            "required": false,
+            "type": "string"
+        },
+        "alias_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "dav_create_absolute_uri": {
+            "required": false,
+            "type": "boolean"
+        },
+        "dav_create_absolute_uri_TypeHint": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "group": {
+            "required": true,
+            "type": "string"
+        },
+        "name": {
+            "required": true,
+            "type": "string"
+        },
+        "version": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

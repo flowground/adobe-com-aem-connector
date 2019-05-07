@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "path": {
+            "required": true,
+            "type": "string"
+        },
+        "1_property": {
+            "required": true,
+            "type": "string"
+        },
+        "p_limit": {
+            "required": true,
+            "type": "number"
+        },
+        "1_property_value": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

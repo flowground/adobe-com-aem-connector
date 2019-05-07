@@ -1,0 +1,137 @@
+{
+    "type": "object",
+    "properties": {
+        "post": {
+            "required": false,
+            "type": "boolean"
+        },
+        "apply": {
+            "required": false,
+            "type": "boolean"
+        },
+        "delete": {
+            "required": false,
+            "type": "boolean"
+        },
+        "action": {
+            "required": false,
+            "type": "string"
+        },
+        "path": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "idpUrl": {
+            "required": false,
+            "type": "string"
+        },
+        "idpCertAlias": {
+            "required": false,
+            "type": "string"
+        },
+        "idpHttpRedirect": {
+            "required": false,
+            "type": "boolean"
+        },
+        "serviceProviderEntityId": {
+            "required": false,
+            "type": "string"
+        },
+        "assertionConsumerServiceURL": {
+            "required": false,
+            "type": "string"
+        },
+        "spPrivateKeyAlias": {
+            "required": false,
+            "type": "string"
+        },
+        "keyStorePassword": {
+            "required": false,
+            "type": "string"
+        },
+        "defaultRedirectUrl": {
+            "required": false,
+            "type": "string"
+        },
+        "userIDAttribute": {
+            "required": false,
+            "type": "string"
+        },
+        "useEncryption": {
+            "required": false,
+            "type": "boolean"
+        },
+        "createUser": {
+            "required": false,
+            "type": "boolean"
+        },
+        "addGroupMemberships": {
+            "required": false,
+            "type": "boolean"
+        },
+        "groupMembershipAttribute": {
+            "required": false,
+            "type": "string"
+        },
+        "defaultGroups": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "nameIdFormat": {
+            "required": false,
+            "type": "string"
+        },
+        "synchronizeAttributes": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "handleLogout": {
+            "required": false,
+            "type": "boolean"
+        },
+        "logoutUrl": {
+            "required": false,
+            "type": "string"
+        },
+        "clockTolerance": {
+            "required": false,
+            "type": "integer"
+        },
+        "digestMethod": {
+            "required": false,
+            "type": "string"
+        },
+        "signatureMethod": {
+            "required": false,
+            "type": "string"
+        },
+        "userIntermediatePath": {
+            "required": false,
+            "type": "string"
+        },
+        "propertylist": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "_location": {
+            "required": false,
+            "type": "string"
+        },
+        "service_ranking": {
+            "required": false,
+            "type": "integer"
+        }
+    }
+}

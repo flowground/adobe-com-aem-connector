@@ -1,0 +1,206 @@
+{
+    "type": "object",
+    "properties": {
+        "keyStorePassword": {
+            "required": false,
+            "type": "string"
+        },
+        "idpHttpRedirect": {
+            "required": false,
+            "type": "boolean"
+        },
+        "createUser": {
+            "required": false,
+            "type": "boolean"
+        },
+        "defaultRedirectUrl": {
+            "required": false,
+            "type": "string"
+        },
+        "userIDAttribute": {
+            "required": false,
+            "type": "string"
+        },
+        "defaultGroups": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "idpCertAlias": {
+            "required": false,
+            "type": "string"
+        },
+        "addGroupMemberships": {
+            "required": false,
+            "type": "boolean"
+        },
+        "path": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "synchronizeAttributes": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "clockTolerance": {
+            "required": false,
+            "type": "integer"
+        },
+        "groupMembershipAttribute": {
+            "required": false,
+            "type": "string"
+        },
+        "idpUrl": {
+            "required": false,
+            "type": "string"
+        },
+        "logoutUrl": {
+            "required": false,
+            "type": "string"
+        },
+        "serviceProviderEntityId": {
+            "required": false,
+            "type": "string"
+        },
+        "assertionConsumerServiceURL": {
+            "required": false,
+            "type": "string"
+        },
+        "handleLogout": {
+            "required": false,
+            "type": "boolean"
+        },
+        "spPrivateKeyAlias": {
+            "required": false,
+            "type": "string"
+        },
+        "useEncryption": {
+            "required": false,
+            "type": "boolean"
+        },
+        "nameIdFormat": {
+            "required": false,
+            "type": "string"
+        },
+        "digestMethod": {
+            "required": false,
+            "type": "string"
+        },
+        "signatureMethod": {
+            "required": false,
+            "type": "string"
+        },
+        "userIntermediatePath": {
+            "required": false,
+            "type": "string"
+        },
+        "keyStorePassword_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "service_ranking": {
+            "required": false,
+            "type": "integer"
+        },
+        "service_ranking_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "idpHttpRedirect_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "createUser_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "defaultRedirectUrl_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "userIDAttribute_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "defaultGroups_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "idpCertAlias_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "addGroupMemberships_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "path_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "synchronizeAttributes_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "clockTolerance_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "groupMembershipAttribute_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "idpUrl_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "logoutUrl_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "serviceProviderEntityId_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "assertionConsumerServiceURL_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "handleLogout_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "spPrivateKeyAlias_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "useEncryption_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "nameIdFormat_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "digestMethod_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "signatureMethod_TypeHint": {
+            "required": false,
+            "type": "string"
+        },
+        "userIntermediatePath_TypeHint": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}
