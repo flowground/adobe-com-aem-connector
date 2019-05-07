@@ -1,11 +1,11 @@
-# ![LOGO](logo.png) Adobe Experience Manager (AEM) MSP Connector
+# ![LOGO](logo.png) Adobe Experience Manager (AEM) **flow**ground Connector
 
 ## Description
 
-A generated MSP connector for the Adobe Experience Manager (AEM) API (version 2.5.0-pre).
+A generated **flow**ground connector for the Adobe Experience Manager (AEM) API (version 2.5.0-pre).
 
 Generated from: https://api.apis.guru/v2/specs/adobe.com/aem/2.5.0-pre/swagger.json<br/>
-Generated at: 2019-05-07T11:15:11+03:00
+Generated at: 2019-05-07T17:34:46+03:00
 
 ## API Description
 
@@ -541,7 +541,7 @@ Supported authorization schemes:
 
 ## License
 
-flowground :- Telekom iPaaS / adobe-com-aem-connector<br/>
+**flow**ground :- Telekom iPaaS / adobe-com-aem-connector<br/>
 Copyright © 2019, [Deutsche Telekom AG](https://www.telekom.de)<br/>
 contact: flowground@telekom.de
 
